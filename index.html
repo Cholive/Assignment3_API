@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>API Assignment 3</title>
+
+  <style>
+    body {     
+      display:grid;     
+      background-color: rgb(7, 128, 7);
+    }
+  .container{
+    color: darkorange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    word-wrap: normal;
+    
+  }
+   h1{
+    position: relative;
+    color: gold;
+    padding: 1em;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .container button {    
+    position: relative;
+    background-color: rgb(2, 11, 63);
+    color: white;
+    padding: 20px 30px;
+    border: 3px solid black;
+    border-radius: 20px;
+    outline: none;
+    font-family: cursive;   
+    cursor: pointer;
+  }
+  .container h2{
+    position: relative;
+  }
+    </style>
+</head>
+<body>
+  
+    <h1 >Want To Hear A Joke?</h1>
+    <div class="container">
+    <button>Get Joke!!</button>
+    <h2 id="jokeHeading"></h2>
+    <h2 id="jokePunchline"></h2>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
